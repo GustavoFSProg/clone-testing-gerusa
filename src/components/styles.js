@@ -8,6 +8,10 @@ export const HeaderContainer = styled.div`
 
   align-items: center;
   justify-content: space-around;
+
+  @media screen and (max-width: 850px) {
+    height: 7.4rem;
+  }
 `
 export const LogoContainer = styled.div`
   display: flex;
@@ -16,6 +20,18 @@ export const LogoContainer = styled.div`
   background: #f2f2f2;
   align-items: center;
   justify-content: space-around;
+
+  @media screen and (max-width: 850px) {
+    height: 3.8rem;
+  }
+`
+
+export const Imagem = styled.img`
+  width: 70px;
+
+  @media screen and (max-width: 850px) {
+    width: 47px;
+  }
 `
 export const LinksContainer = styled.div`
   display: flex;
