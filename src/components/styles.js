@@ -45,4 +45,8 @@ export const Span = styled.span`
     align-items: center;
     justify-content: center;
   }
+
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
 `
