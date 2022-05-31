@@ -24,6 +24,12 @@ export const LinksContainer = styled.div`
   background: #00cc44;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 850px) {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
 `
 export const Span = styled.span`
   font-size: 0.879rem;
@@ -46,7 +52,19 @@ export const Span = styled.span`
     justify-content: center;
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 850px) {
     display: none;
+  }
+`
+export const Menu = styled.div`
+  width: 30px;
+  height: 25px;
+  background: yellow;
+  display: none;
+  border-radius: 4px;
+
+  @media screen and (max-width: 850px) {
+    display: flex;
+    margin-left: 20px;
   }
 `
