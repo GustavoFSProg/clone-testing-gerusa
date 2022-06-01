@@ -12,7 +12,7 @@ export const ContainerName = styled.div`
 
   @media screen and (max-width: 700px) {
     width: 100%;
-    height: 6.6rem;
+    height: 7rem;
   }
 `
 
