@@ -1,6 +1,6 @@
 import './App.css'
 import Header from './components/Header'
-import { ContainerName, Image, H1, Text, ImageContainer } from './styles-app'
+import { ContainerName, Image, H1, H2, Text, ImageContainer } from './styles-app'
 import Foto from './assets/image1.jpg'
 
 function App() {
@@ -8,8 +8,8 @@ function App() {
     <div>
       <Header />
       <ContainerName>
-        <H1>Gerusa Gamm </H1>
-        <H1 style={{ fontSize: '1.6rem' }}> Tradutora Juramentada</H1>
+        <H1>Gerusa Sohne Gamm </H1>
+        <H2> Tradutora Juramentada Alemão</H2>
       </ContainerName>
       <ImageContainer>
         <Text>

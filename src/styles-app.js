@@ -24,12 +24,27 @@ export const H1 = styled.span`
   width: 30%;
   color: #006600;
   font-size: 2.3rem;
-  margin-bottom: 18px;
 
   @media screen and (max-width: 700px) {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
     width: 80%;
     margin-bottom: 7px;
+  }
+`
+
+export const H2 = styled.span`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  color: #006600;
+  font-size: 1.4rem;
+  margin-top: 15px;
+
+  @media screen and (max-width: 700px) {
+    font-size: 1.1rem;
+    width: 80%;
+    margin-top: 5px;
   }
 `
 
