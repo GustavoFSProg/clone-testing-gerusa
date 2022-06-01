@@ -10,7 +10,7 @@ function App() {
         <Header />
         <ContainerName>
           <H1>Gerusa Sohne Gamm </H1>
-          <H2> Tradutora Juramentada Alemão</H2>
+          <H2> Tradutora Juramentada de Alemão</H2>
         </ContainerName>
         <ImageContainer>
           <Text>
