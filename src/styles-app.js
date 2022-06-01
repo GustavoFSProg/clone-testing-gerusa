@@ -8,11 +8,11 @@ export const ContainerName = styled.div`
 
   align-items: center;
   justify-content: space-around;
-  background: #ffffcc;
+  background: #ffffe6;
 
   @media screen and (max-width: 700px) {
     width: 100%;
-    height: 7rem;
+    height: 8rem;
   }
 `
 
@@ -21,6 +21,7 @@ export const H1 = styled.h1`
   align-items: center;
   justify-content: center;
   width: 45%;
+  color: #006600;
 
   @media screen and (max-width: 700px) {
     font-size: 1.3rem;
@@ -60,7 +61,7 @@ export const Image = styled.img`
 `
 export const Text = styled.div`
   width: 38%;
-  color: darkblue;
+  color: #008000;
   font-family: 'Blinker';
   font-size: 30px;
   margin-right: 115px;
