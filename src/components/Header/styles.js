@@ -16,12 +16,14 @@ export const HeaderContainer = styled.div`
 export const LogoContainer = styled.div`
   display: flex;
   width: 100%;
-  height: 3rem;
-  background: #f2f2f2;
+  /* height: 60%; */
+  /* background: #f2f2f2; */
   align-items: flex-start;
 
   @media screen and (max-width: 850px) {
-    height: 1rem;
+    display: none;
+    width: 0px;
+    height: 0px;
   }
 `
 
@@ -32,7 +34,8 @@ export const Imagem = styled.img`
   @media screen and (max-width: 850px) {
     width: 45px;
     margin-left: 16px;
-    margin-bottom: 20px;
+    /* margin-bottom: 35px; */
+    display: none;
   }
 `
 export const LinksContainer = styled.div`
