@@ -26,7 +26,7 @@ export const H1 = styled.span`
   font-size: 2.3rem;
 
   @media screen and (max-width: 700px) {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     width: 80%;
     margin-bottom: 7px;
   }
@@ -42,8 +42,8 @@ export const H2 = styled.span`
   margin-top: 15px;
 
   @media screen and (max-width: 700px) {
-    font-size: 1.1rem;
-    width: 80%;
+    font-size: 1rem;
+    width: 84%;
     margin-top: 5px;
   }
 `
