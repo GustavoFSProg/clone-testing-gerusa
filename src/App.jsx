@@ -8,7 +8,8 @@ function App() {
     <div>
       <Header />
       <ContainerName>
-        <H1>Gerusa Gamm - Tradutora Juramentada</H1>
+        <H1>Gerusa Gamm </H1>
+        <H1 style={{ fontSize: '1.6rem' }}> Tradutora Juramentada</H1>
       </ContainerName>
       <ImageContainer>
         <Text>

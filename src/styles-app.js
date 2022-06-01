@@ -3,29 +3,33 @@ import styled from 'styled-components'
 export const ContainerName = styled.div`
   display: flex;
   width: 100%;
-  height: 10.5rem;
+  height: 10.8rem;
   flex-direction: column;
 
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   background: #ffffe6;
 
   @media screen and (max-width: 700px) {
     width: 100%;
     height: 8rem;
+    flex-direction: column;
   }
 `
 
-export const H1 = styled.h1`
+export const H1 = styled.span`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 45%;
+  width: 30%;
   color: #006600;
+  font-size: 2.3rem;
+  margin-bottom: 18px;
 
   @media screen and (max-width: 700px) {
-    font-size: 1.3rem;
+    font-size: 2.3rem;
     width: 80%;
+    margin-bottom: 7px;
   }
 `
 
