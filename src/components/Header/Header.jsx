@@ -1,6 +1,6 @@
-import { HeaderContainer, Imagem, Menu, Span, LinksContainer, LogoContainer } from './styles'
-import Logo from '../assets/logo.jpg'
-
+import { HeaderContainer, Imagem, Span, LinksContainer, LogoContainer } from './styles'
+import Logo from '../../assets/logo.jpg'
+import Menu from '../Menu/menu'
 function Header() {
   return (
     <HeaderContainer>

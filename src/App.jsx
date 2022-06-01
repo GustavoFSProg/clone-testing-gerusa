@@ -1,5 +1,5 @@
 import './App.css'
-import Header from './components/Header'
+import Header from './components/Header/Header'
 import { ContainerName, Image, H1, H2, Text, ImageContainer } from './styles-app'
 import Foto from './assets/image1.jpg'
 
