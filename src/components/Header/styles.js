@@ -11,6 +11,7 @@ export const HeaderContainer = styled.div`
 
   @media screen and (max-width: 850px) {
     height: 7.4rem;
+    margin-top: -47px;
   }
 `
 export const LogoContainer = styled.div`
@@ -21,7 +22,7 @@ export const LogoContainer = styled.div`
   align-items: flex-start;
 
   @media screen and (max-width: 850px) {
-    display: none;
+    /* display: none; */
     width: 0px;
     height: 0px;
   }
@@ -32,8 +33,8 @@ export const Imagem = styled.img`
   margin-left: 35px;
 
   @media screen and (max-width: 850px) {
-    width: 45px;
-    margin-left: 16px;
+    width: 0px;
+    margin-left: 0px;
     /* margin-bottom: 35px; */
     display: none;
   }
