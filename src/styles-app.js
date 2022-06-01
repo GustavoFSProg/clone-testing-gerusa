@@ -23,7 +23,7 @@ export const H1 = styled.h1`
 
   @media screen and (max-width: 700px) {
     font-size: 1.3rem;
-    width: 70%;
+    width: 80%;
   }
 `
 
@@ -45,16 +45,16 @@ export const ImageContainer = styled.div`
   }
 `
 export const Image = styled.img`
-  width: 25%;
-  height: 70%;
+  width: 35%;
+  height: 90%;
   border-radius: 48%;
 
   @media screen and (max-width: 800px) {
     flex-direction: column;
     border-radius: 48%;
-    width: 48%;
+    width: 58%;
     margin-top: 40px;
-    height: 150px;
+    height: 165px;
   }
 `
 export const Text = styled.div`
