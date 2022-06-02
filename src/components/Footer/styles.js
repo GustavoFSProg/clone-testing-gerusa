@@ -10,7 +10,7 @@ export const FooterContainer = styled.div`
   padding: 3rem;
 
   @media screen and (max-width: 700px) {
-    padding-bottom: 90px;
+    padding-bottom: 100px;
   }
 `
 
@@ -60,7 +60,7 @@ export const ContainerText = styled.div`
   display: flex;
 
   @media screen and (max-width: 700px) {
-    margin-top: 15px;
+    margin-top: 18px;
   }
 `
 export const ContainerImages = styled.div`
@@ -68,6 +68,6 @@ export const ContainerImages = styled.div`
   display: flex;
 
   @media screen and (max-width: 700px) {
-    margin-top: 8px;
+    margin-top: 11px;
   }
 `

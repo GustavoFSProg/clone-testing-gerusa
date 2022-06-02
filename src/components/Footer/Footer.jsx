@@ -1,8 +1,8 @@
 import { FooterContainer, ContainerImages, LinksContainer, ContainerText } from './styles'
-import Whatsapp from '../../assets/whats.svg'
-import Insta from '../../assets/insta.svg'
-import Email from '../../assets/email.svg'
-import Face from '../../assets/face.svg'
+import Whatsapp from './images/whats.svg'
+import Insta from './images/insta.svg'
+import Email from './images/email.svg'
+import Face from './images/face.svg'
 
 function Footer() {
   return (
