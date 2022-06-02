@@ -4,13 +4,12 @@ export const FooterContainer = styled.div`
   display: flex;
   color: white;
   background: #006666;
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
   justify-content: space-around;
   align-items: flex-start;
   padding: 3rem;
 
   @media screen and (max-width: 700px) {
-    padding-bottom: 120px;
   }
 `
 
@@ -25,6 +24,7 @@ export const LinksContainer = styled.div`
   @media screen and (max-width: 700px) {
     display: flex;
     flex-direction: column;
+    padding-bottom: 120px;
   }
 `
 export const Span = styled.span`
