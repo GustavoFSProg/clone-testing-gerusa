@@ -60,7 +60,7 @@ export const ContainerText = styled.div`
   display: flex;
 
   @media screen and (max-width: 700px) {
-    margin-top: 11px;
+    margin-top: 15px;
   }
 `
 export const ContainerImages = styled.div`
@@ -68,6 +68,6 @@ export const ContainerImages = styled.div`
   display: flex;
 
   @media screen and (max-width: 700px) {
-    margin-top: 5px;
+    margin-top: 8px;
   }
 `
