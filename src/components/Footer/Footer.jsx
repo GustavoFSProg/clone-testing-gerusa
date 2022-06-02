@@ -49,9 +49,13 @@ function Footer() {
           </a>
         </ContainerImages>
         <ContainerText>
-          <img src={Face} alt="whataspp" width="35" style={{ marginRight: '25px' }} />
+          <a href=" https://www.facebook.com/profile.php?id=100011357965761">
+            <img src={Face} alt="whataspp" width="35" style={{ marginRight: '25px' }} />
+          </a>
 
-          <img src={Insta} alt="whataspp" width="35" />
+          <a href="https://www.instagram.com/espaco.vidya/?hl=pt-br">
+            <img src={Insta} alt="whataspp" width="35" />
+          </a>
         </ContainerText>
       </LinksContainer>
     </FooterContainer>
