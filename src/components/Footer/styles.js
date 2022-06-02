@@ -24,7 +24,7 @@ export const LinksContainer = styled.div`
   @media screen and (max-width: 700px) {
     display: flex;
     flex-direction: column;
-    padding-bottom: 120px;
+    padding-bottom: 95px;
   }
 `
 export const Span = styled.span`
