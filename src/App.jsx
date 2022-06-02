@@ -2,6 +2,7 @@ import './App.css'
 import Header from './components/Header/Header'
 import { ContainerName, Image, H1, H2, Text, ImageContainer } from './styles-app'
 import Foto from './assets/image1.jpg'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           </Text>
           <Image src={Foto} alt="imagem" />
         </ImageContainer>
+        <Footer />
       </div>
     </>
   )

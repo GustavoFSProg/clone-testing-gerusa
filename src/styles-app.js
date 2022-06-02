@@ -58,6 +58,7 @@ export const ImageContainer = styled.div`
 
   align-items: center;
   justify-content: center;
+  margin-bottom: 250px;
 
   @media screen and (max-width: 800px) {
     flex-direction: column;
