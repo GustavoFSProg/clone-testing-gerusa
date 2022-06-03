@@ -8,3 +8,10 @@ export const MenuContainer = styled.div`
     justify-content: right;
   }
 `
+const Colors = styled.div`
+  color: #ffc14d;
+  color: #b39836;
+  color: #fffd4d;
+  color: #ffb64d;
+  color: #b37f36;
+`

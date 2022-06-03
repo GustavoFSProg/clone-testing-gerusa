@@ -43,9 +43,10 @@ export const LinksContainer = styled.div`
   display: flex;
   width: 100%;
   height: 3.5rem;
-  background: #00cc44;
+  background: #e0a21f;
   align-items: center;
   justify-content: center;
+  color: black;
 
   @media screen and (max-width: 850px) {
     display: flex;

@@ -3,7 +3,9 @@ import styled from 'styled-components'
 export const FooterContainer = styled.div`
   display: flex;
   color: white;
-  background: #006666;
+  /* background: #006666; */
+  background: #9d5716;
+
   /* margin-top: 4rem; */
   justify-content: space-around;
   align-items: flex-start;
@@ -45,15 +47,6 @@ export const Span = styled.span`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
-  /* &:hover {
-    background: black;
-    height: 3.5rem;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  } */
 `
 export const ContainerText = styled.div`
   align-items: center;

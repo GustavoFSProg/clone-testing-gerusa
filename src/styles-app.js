@@ -22,7 +22,7 @@ export const H1 = styled.span`
   align-items: center;
   justify-content: center;
   width: 30%;
-  color: #006600;
+  color: #9d2b16;
   font-size: 2.3rem;
 
   @media screen and (max-width: 700px) {
@@ -37,7 +37,7 @@ export const H2 = styled.span`
   align-items: center;
   justify-content: center;
   width: 30%;
-  color: #006600;
+  color: #9d2b16;
   font-size: 1.4rem;
   margin-top: 15px;
   letter-spacing: 0.02rem;
@@ -82,8 +82,8 @@ export const Image = styled.img`
 `
 export const Text = styled.div`
   width: 38%;
-  color: #008000;
-  font-family: 'Blinker';
+  color: #9d5716;
+  font-family: 'Kalam';
   font-size: 30px;
   margin-right: 115px;
 
