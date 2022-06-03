@@ -1,12 +1,8 @@
-import { HeaderContainer, Imagem, Span, LinksContainer, LogoContainer } from './styles'
-import Logo from '../../assets/logo.jpg'
+import { HeaderContainer, Span, LinksContainer, LogoContainer } from './styles'
 import Menu from '../Menu/menu'
 function Header() {
   return (
     <HeaderContainer>
-      <LogoContainer>
-        <Imagem src={Logo} alt="logo" />
-      </LogoContainer>
       <LinksContainer>
         <Menu />
         <Span>HOME</Span>

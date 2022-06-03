@@ -1,17 +1,21 @@
 import './App.css'
 import Header from './components/Header/Header'
-import { ContainerName, Image, H1, H2, Text, ImageContainer } from './styles-app'
+import { ContainerName, Image, Imagem, H1, H2, Text, ImageContainer } from './styles-app'
 import Foto from './assets/image1.jpg'
 import Footer from './components/Footer/Footer'
+import Logo from './assets/logo1.jpg'
 
 function App() {
   return (
     <>
       <div>
-        <Header />
         <ContainerName>
-          <H1>Gerusa Sohne Gamm </H1>
-          <H2> Tradutora Juramentada de Alemão</H2>
+          <Header />
+          <H1>
+            <Imagem src={Logo} alt="logo" />
+          </H1>
+          <H2> Tradução Juramentada de Alemão</H2>
+          <H2> Aulas de Alemão e Yoga</H2>
         </ContainerName>
         <ImageContainer>
           <Text>

@@ -5,13 +5,14 @@ export const HeaderContainer = styled.div`
   width: 100%;
   height: 10.5rem;
   flex-direction: column;
+  margin-top: 26px;
 
   align-items: center;
   justify-content: space-around;
 
   @media screen and (max-width: 850px) {
     height: 7.4rem;
-    margin-top: -47px;
+    margin-top: 12px;
   }
 `
 export const LogoContainer = styled.div`
@@ -29,7 +30,7 @@ export const LogoContainer = styled.div`
 `
 
 export const Imagem = styled.img`
-  width: 70px;
+  width: 13%;
   margin-left: 35px;
 
   @media screen and (max-width: 850px) {

@@ -3,17 +3,18 @@ import styled from 'styled-components'
 export const ContainerName = styled.div`
   display: flex;
   width: 100%;
-  height: 10.8rem;
+  height: 20rem;
   flex-direction: column;
 
   align-items: center;
   justify-content: center;
-  background: #ffffe6;
+  /* background: #ffffe6; */
 
   @media screen and (max-width: 700px) {
     width: 100%;
-    height: 8rem;
+    height: 20.5rem;
     flex-direction: column;
+    margin-top: -15px;
   }
 `
 
@@ -38,14 +39,16 @@ export const H2 = styled.span`
   justify-content: center;
   width: 30%;
   color: #9d2b16;
-  font-size: 1.4rem;
-  margin-top: 15px;
+  font-size: 1.1rem;
+  margin-top: 10px;
   letter-spacing: 0.02rem;
+  padding-bottom: 1px;
 
   @media screen and (max-width: 700px) {
-    font-size: 1rem;
+    font-size: 1.2rem;
     width: 84%;
     margin-top: 5px;
+    padding-bottom: 3px;
   }
 `
 
@@ -54,11 +57,11 @@ export const ImageContainer = styled.div`
   width: 400;
   height: 400px;
   flex-direction: row;
-  margin-top: 100px;
+  margin-top: 160px;
 
   align-items: center;
   justify-content: center;
-  margin-bottom: 250px;
+  margin-bottom: 280px;
 
   @media screen and (max-width: 800px) {
     flex-direction: column;
@@ -92,7 +95,20 @@ export const Text = styled.div`
     width: 88%;
     height: auto;
     margin-left: 90px;
-    margin-top: 20px;
+    /* margin-top: 80px; */
     margin-right: 78px;
+  }
+`
+
+export const Imagem = styled.img`
+  width: 45%;
+  border-radius: 48%;
+  margin-top: 32px;
+
+  /* margin-left: 35px; */
+
+  @media screen and (max-width: 850px) {
+    width: 37%;
+    margin-bottom: 15px;
   }
 `
