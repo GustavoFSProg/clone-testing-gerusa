@@ -40,7 +40,9 @@ export default function SimpleMenu() {
           </Link>
         </MenuItem>
         <MenuItem onClick={handleClose}>Contato</MenuItem>
-        <MenuItem onClick={handleClose}>Sobre</MenuItem>
+        <MenuItem onClick={handleClose}>Tradução</MenuItem>
+        <MenuItem onClick={handleClose}>Alemao</MenuItem>
+        <MenuItem onClick={handleClose}>Serviços</MenuItem>
       </Menu>
     </MenuContainer>
   )
