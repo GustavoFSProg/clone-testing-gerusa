@@ -97,13 +97,11 @@ export const Text = styled.div`
   margin-right: 115px;
 
   @media screen and (max-width: 600px) {
-    /* font-size: 19px; */
     font-size: 1.2rem;
 
     width: 88%;
     height: auto;
     margin-left: 90px;
-    /* margin-top: 80px; */
     margin-right: 78px;
   }
 
@@ -122,5 +120,6 @@ export const Imagem = styled.img`
 
   @media screen and (max-width: 850px) {
     margin-bottom: 15px;
+    width: 60%;
   }
 `
