@@ -47,14 +47,16 @@ export const LinksContainer = styled.div`
   justify-content: center;
   color: black;
   padding-top: 15px;
-  padding-left: 80px;
+  padding-left: 2px;
 
-  @media screen and (min-width: 465px) {
+  @media screen and (max-width: 850px) {
     display: flex;
     justify-content: left;
-    /* margin-top: 50px; */
+    padding-top: 0px;
+    position: absolute;
     top: 0;
     height: 3.5rem;
+    padding-left: 14px;
   }
 `
 export const Span = styled.span`
@@ -91,6 +93,6 @@ export const Menu = styled.div`
 
   @media screen and (max-width: 850px) {
     display: flex;
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
 `
