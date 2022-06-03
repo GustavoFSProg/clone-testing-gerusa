@@ -10,7 +10,7 @@ export const ContainerName = styled.div`
   justify-content: center;
   /* background: #ffffe6; */
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 900px) {
     width: 100%;
     height: 20.5rem;
     flex-direction: column;
@@ -26,7 +26,7 @@ export const H1 = styled.span`
   color: #9d2b16;
   font-size: 2.3rem;
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 900px) {
     font-size: 1.6rem;
     width: 80%;
     margin-bottom: 7px;
@@ -44,7 +44,7 @@ export const H2 = styled.span`
   letter-spacing: 0.02rem;
   padding-bottom: 1px;
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 900px) {
     font-size: 1rem;
     width: 84%;
     margin-top: 5px;
@@ -64,6 +64,13 @@ export const ImageContainer = styled.div`
   margin-bottom: 280px;
 
   @media screen and (max-width: 800px) {
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 260px;
+    padding-top: 80px;
+  }
+
+  @media screen and (min-width: 800px) and (max-width: 950px) {
     flex-direction: column;
     height: auto;
     padding-bottom: 260px;
@@ -90,7 +97,7 @@ export const Text = styled.div`
   font-size: 1.8rem;
   margin-right: 115px;
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 600px) {
     /* font-size: 19px; */
     font-size: 1.2rem;
 
@@ -99,6 +106,13 @@ export const Text = styled.div`
     margin-left: 90px;
     /* margin-top: 80px; */
     margin-right: 78px;
+  }
+
+  @media screen and (min-width: 600px) and (max-width: 950px) {
+    font-size: 1.2rem;
+
+    padding-bottom: 260px;
+    padding-top: 80px;
   }
 `
 
