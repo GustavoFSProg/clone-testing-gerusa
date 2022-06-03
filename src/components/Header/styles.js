@@ -51,7 +51,7 @@ export const LinksContainer = styled.div`
   @media screen and (max-width: 850px) {
     display: flex;
     justify-content: left;
-    margin-top: 98px;
+    margin-top: 95px;
     height: 5rem;
   }
 `
