@@ -14,7 +14,7 @@ export const ContainerName = styled.div`
     width: 100%;
     height: 20.5rem;
     flex-direction: column;
-    margin-top: -15px;
+    margin-top: -85px;
   }
 `
 
@@ -45,7 +45,7 @@ export const H2 = styled.span`
   padding-bottom: 1px;
 
   @media screen and (max-width: 700px) {
-    font-size: 1.2rem;
+    font-size: 1rem;
     width: 84%;
     margin-top: 5px;
     padding-bottom: 3px;
@@ -57,7 +57,7 @@ export const ImageContainer = styled.div`
   width: 400;
   height: 400px;
   flex-direction: row;
-  margin-top: 160px;
+  padding-top: 160px;
 
   align-items: center;
   justify-content: center;
@@ -67,7 +67,7 @@ export const ImageContainer = styled.div`
     flex-direction: column;
     height: auto;
     padding-bottom: 260px;
-    margin-top: 28px;
+    padding-top: 80px;
   }
 `
 export const Image = styled.img`
@@ -87,11 +87,13 @@ export const Text = styled.div`
   width: 38%;
   color: #9d5716;
   font-family: 'Kalam';
-  font-size: 30px;
+  font-size: 1.8rem;
   margin-right: 115px;
 
   @media screen and (max-width: 800px) {
-    font-size: 19px;
+    /* font-size: 19px; */
+    font-size: 1.2rem;
+
     width: 88%;
     height: auto;
     margin-left: 90px;
@@ -108,7 +110,6 @@ export const Imagem = styled.img`
   /* margin-left: 35px; */
 
   @media screen and (max-width: 850px) {
-    width: 37%;
     margin-bottom: 15px;
   }
 `

@@ -12,7 +12,6 @@ export const HeaderContainer = styled.div`
 
   @media screen and (max-width: 850px) {
     height: 7.4rem;
-    margin-top: 12px;
   }
 `
 export const LogoContainer = styled.div`
@@ -51,8 +50,9 @@ export const LinksContainer = styled.div`
 
   @media screen and (max-width: 850px) {
     display: flex;
-    align-items: center;
     justify-content: left;
+    margin-top: 98px;
+    height: 5rem;
   }
 `
 export const Span = styled.span`
