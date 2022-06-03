@@ -46,7 +46,7 @@ export const LinksContainer = styled.div`
   align-items: center;
   justify-content: center;
   color: black;
-  padding-top: 12px;
+  padding-top: 15px;
   padding-left: 2px;
 
   @media screen and (max-width: 850px) {
