@@ -47,6 +47,7 @@ export const LinksContainer = styled.div`
   justify-content: center;
   color: black;
   padding-top: 15px;
+  padding-left: 80px;
 
   @media screen and (min-width: 465px) {
     display: flex;
