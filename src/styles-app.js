@@ -8,13 +8,12 @@ export const ContainerName = styled.div`
 
   align-items: center;
   justify-content: center;
-  /* background: #ffffe6; */
 
   @media screen and (max-width: 900px) {
     width: 100%;
     height: 20.5rem;
     flex-direction: column;
-    /* margin-top: -85px; */
+    position: relative;
   }
 `
 
@@ -67,7 +66,7 @@ export const ImageContainer = styled.div`
     flex-direction: column;
     height: auto;
     padding-bottom: 260px;
-    padding-top: 80px;
+    padding-top: 65px;
   }
 
   @media screen and (min-width: 800px) and (max-width: 950px) {
@@ -119,9 +118,7 @@ export const Text = styled.div`
 export const Imagem = styled.img`
   width: 45%;
   border-radius: 48%;
-  margin-top: 32px;
-
-  /* margin-left: 35px; */
+  padding-top: 38px;
 
   @media screen and (max-width: 850px) {
     margin-bottom: 15px;
