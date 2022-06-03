@@ -5,28 +5,27 @@ export const HeaderContainer = styled.div`
   width: 100%;
   height: 10.5rem;
   flex-direction: column;
-  margin-top: 26px;
+  margin-top: 0px;
+  top: 0px;
 
   align-items: center;
   justify-content: space-around;
 
   @media screen and (max-width: 850px) {
     height: 7.4rem;
+    top: 0px;
+    margin-top: 0px;
   }
 `
-export const LogoContainer = styled.div`
-  display: flex;
-  width: 100%;
-  /* height: 60%; */
-  /* background: #f2f2f2; */
-  align-items: flex-start;
+// export const LogoContainer = styled.div`
+//   display: flex;
+//   width: 100%;
+//   align-items: flex-start;
 
-  @media screen and (max-width: 850px) {
-    /* display: none; */
-    width: 0px;
-    height: 0px;
-  }
-`
+//   @media screen and (max-width: 500px) {
+//     background: red;
+//   }
+// `
 
 export const Imagem = styled.img`
   width: 13%;
@@ -47,12 +46,14 @@ export const LinksContainer = styled.div`
   align-items: center;
   justify-content: center;
   color: black;
+  padding-top: 15px;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (min-width: 465px) {
     display: flex;
     justify-content: left;
-    margin-top: 91px;
-    height: 5rem;
+    /* margin-top: 50px; */
+    top: 0;
+    height: 3.5rem;
   }
 `
 export const Span = styled.span`

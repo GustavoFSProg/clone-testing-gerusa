@@ -14,7 +14,7 @@ export const ContainerName = styled.div`
     width: 100%;
     height: 20.5rem;
     flex-direction: column;
-    margin-top: -85px;
+    /* margin-top: -85px; */
   }
 `
 

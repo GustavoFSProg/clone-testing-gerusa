@@ -1,4 +1,4 @@
-import { HeaderContainer, Span, LinksContainer, LogoContainer } from './styles'
+import { HeaderContainer, Span, LinksContainer } from './styles'
 import Menu from '../Menu/menu'
 function Header() {
   return (
