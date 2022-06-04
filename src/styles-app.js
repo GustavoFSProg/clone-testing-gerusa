@@ -154,13 +154,20 @@ export const Card = styled.div`
 
   @media screen and (max-width: 800px) {
     margin-bottom: 50px;
-    width: 18rem;
+    width: 18.1rem;
     height: 40.5rem;
   }
 `
 export const Span = styled.span`
   width: 75%;
   height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media screen and (max-width: 700px) {
+    width: 76%;
+  }
 `
 export const Button = styled.button`
   width: 13rem;
