@@ -127,7 +127,7 @@ export const CardContainer = styled.div`
   display: grid;
   grid-template-columns: 365px 365px 365px;
   width: 100%;
-  height: 40rem;
+  height: 56rem;
   background: #e6f3ff;
 
   align-items: center;
