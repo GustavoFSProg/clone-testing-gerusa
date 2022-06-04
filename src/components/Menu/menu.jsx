@@ -20,7 +20,7 @@ export default function SimpleMenu() {
   return (
     <MenuContainer>
       <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
-        <MenuIcon style={{ color: 'yellow', fontSize: '35px' }} />
+        <MenuIcon style={{ color: '#9d5716', fontSize: '35px' }} />
       </Button>
       <Menu
         id="simple-menu"
