@@ -41,6 +41,7 @@ function App() {
         </ImageContainer>
         <CardContainer>
           <Card>
+            <h2>Tradução</h2>
             <Span>
               There are many variations of passages of Lorem Ipsum available, but the majority have
               suffered alteration in some form, by injected humour, or randomised words which don't
@@ -53,7 +54,8 @@ function App() {
             <Button>Ver mais</Button>
           </Card>
           <Card>
-            {' '}
+            <h2>Yoga</h2>
+
             <Span>
               There are many variations of passages of Lorem Ipsum available, but the majority have
               suffered alteration in some form, by injected humour, or randomised words which don't
@@ -66,7 +68,8 @@ function App() {
             <Button>Ver mais</Button>
           </Card>
           <Card>
-            {' '}
+            <h2>Aulas de Alemão</h2>
+
             <Span>
               There are many variations of passages of Lorem Ipsum available, but the majority have
               suffered alteration in some form, by injected humour, or randomised words which don't

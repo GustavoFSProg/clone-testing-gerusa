@@ -145,7 +145,7 @@ export const Card = styled.div`
   justify-content: center;
   flex-direction: column;
   width: 20rem;
-  height: 32rem;
+  height: 34rem;
   background: #009900;
   border-radius: 20px;
   background: linear-gradient(to right, #00b300 20%, green 45%);
@@ -155,6 +155,7 @@ export const Card = styled.div`
   @media screen and (max-width: 800px) {
     margin-bottom: 50px;
     width: 18rem;
+    height: 36rem;
   }
 `
 export const Span = styled.span`
