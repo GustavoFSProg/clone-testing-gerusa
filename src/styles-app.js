@@ -155,7 +155,7 @@ export const Card = styled.div`
   @media screen and (max-width: 800px) {
     margin-bottom: 50px;
     width: 18rem;
-    height: 36rem;
+    height: 37rem;
   }
 `
 export const Span = styled.span`
