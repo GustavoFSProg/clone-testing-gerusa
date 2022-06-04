@@ -128,7 +128,7 @@ export const CardContainer = styled.div`
   grid-template-columns: 365px 365px 365px;
   width: 100%;
   height: 40rem;
-  background: #e6ffe6;
+  background: #e6f3ff;
 
   align-items: center;
   justify-content: center;
@@ -148,7 +148,7 @@ export const Card = styled.div`
   height: 34rem;
   background: #009900;
   border-radius: 20px;
-  background: linear-gradient(to right, #00b300 20%, green 45%);
+  background: linear-gradient(to right, #0059b3 20%, #00264d 45%);
   color: white;
   font-size: 1rem;
 
@@ -169,8 +169,8 @@ export const Button = styled.button`
   font-size: 1rem;
   border-radius: 9px;
   padding: 8px;
-  background: #00b3b3;
-  color: #003333;
+  background: #0059b3;
+  color: white;
   transition: ease 0.3s;
   cursor: pointer;
 

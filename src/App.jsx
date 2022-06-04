@@ -51,7 +51,7 @@ function App() {
               necessary, making this the first true generator on the Internet. It uses a dictionary
               of over 200 Latin words, combined with a handful of{' '}
             </Span>
-            <Button>Ver mais</Button>
+            <Button onClick={() => alert('You Clicked Traduction!')}>Ver mais</Button>
           </Card>
           <Card>
             <h2>Yoga</h2>
@@ -65,7 +65,7 @@ function App() {
               necessary, making this the first true generator on the Internet. It uses a dictionary
               of over 200 Latin words, combined with a handful of{' '}
             </Span>
-            <Button>Ver mais</Button>
+            <Button onClick={() => alert('You Clicked Yoga!')}>Ver mais</Button>
           </Card>
           <Card>
             <h2>Aulas de Alemão</h2>
@@ -79,7 +79,7 @@ function App() {
               necessary, making this the first true generator on the Internet. It uses a dictionary
               of over 200 Latin words, combined with a handful of{' '}
             </Span>
-            <Button>Ver mais</Button>
+            <Button onClick={() => alert('You Clicked Alemão!')}>Ver mais</Button>
           </Card>
         </CardContainer>
         <Footer />
