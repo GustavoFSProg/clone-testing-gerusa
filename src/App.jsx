@@ -10,6 +10,8 @@ import {
   Text,
   ImageContainer,
   Card,
+  Span,
+  Button,
 } from './styles-app'
 import Foto from './assets/image1.jpg'
 import Footer from './components/Footer/Footer'
@@ -38,9 +40,44 @@ function App() {
           <Image src={Foto} alt="imagem" />
         </ImageContainer>
         <CardContainer>
-          <Card>asasdf</Card>
-          <Card>asasdf</Card>
-          <Card>asasdf</Card>
+          <Card>
+            <Span>
+              There are many variations of passages of Lorem Ipsum available, but the majority have
+              suffered alteration in some form, by injected humour, or randomised words which don't
+              look even slightly believable. If you are going to use a passage of Lorem Ipsum, you
+              need to be sure there isn't anything embarrassing hidden in the middle of text. All
+              the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
+              necessary, making this the first true generator on the Internet. It uses a dictionary
+              of over 200 Latin words, combined with a handful of{' '}
+            </Span>
+            <Button>Ver mais</Button>
+          </Card>
+          <Card>
+            {' '}
+            <Span>
+              There are many variations of passages of Lorem Ipsum available, but the majority have
+              suffered alteration in some form, by injected humour, or randomised words which don't
+              look even slightly believable. If you are going to use a passage of Lorem Ipsum, you
+              need to be sure there isn't anything embarrassing hidden in the middle of text. All
+              the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
+              necessary, making this the first true generator on the Internet. It uses a dictionary
+              of over 200 Latin words, combined with a handful of{' '}
+            </Span>
+            <Button>Ver mais</Button>
+          </Card>
+          <Card>
+            {' '}
+            <Span>
+              There are many variations of passages of Lorem Ipsum available, but the majority have
+              suffered alteration in some form, by injected humour, or randomised words which don't
+              look even slightly believable. If you are going to use a passage of Lorem Ipsum, you
+              need to be sure there isn't anything embarrassing hidden in the middle of text. All
+              the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
+              necessary, making this the first true generator on the Internet. It uses a dictionary
+              of over 200 Latin words, combined with a handful of{' '}
+            </Span>
+            <Button>Ver mais</Button>
+          </Card>
         </CardContainer>
         <Footer />
       </div>

@@ -60,12 +60,12 @@ export const ImageContainer = styled.div`
 
   align-items: center;
   justify-content: center;
-  margin-bottom: 280px;
+  margin-bottom: 180px;
 
   @media screen and (max-width: 800px) {
     flex-direction: column;
     height: auto;
-    padding-bottom: 260px;
+    /* padding-bottom: 260px; */
     padding-top: 65px;
   }
 
@@ -141,13 +141,37 @@ export const CardContainer = styled.div`
 `
 export const Card = styled.div`
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   width: 20rem;
   height: 32rem;
   background: #009900;
   border-radius: 20px;
   background: linear-gradient(to right, #009900 20%, green 45%);
+  color: white;
+  font-size: 1rem;
 
   @media screen and (max-width: 800px) {
-    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+`
+export const Span = styled.span`
+  width: 75%;
+  height: auto;
+`
+export const Button = styled.button`
+  width: 13rem;
+  margin-top: 30px;
+  font-family: 'Arial';
+  font-size: 1rem;
+  border-radius: 9px;
+  padding: 8px;
+  background: #00b3b3;
+  color: #003333;
+  transition: ease 0.3s;
+
+  &:hover {
+    background: gray;
   }
 `
