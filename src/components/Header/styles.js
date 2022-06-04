@@ -17,15 +17,6 @@ export const HeaderContainer = styled.div`
     margin-top: 0px;
   }
 `
-// export const LogoContainer = styled.div`
-//   display: flex;
-//   width: 100%;
-//   align-items: flex-start;
-
-//   @media screen and (max-width: 500px) {
-//     background: red;
-//   }
-// `
 
 export const Imagem = styled.img`
   width: 13%;
@@ -34,7 +25,6 @@ export const Imagem = styled.img`
   @media screen and (max-width: 850px) {
     width: 0px;
     margin-left: 0px;
-    /* margin-bottom: 35px; */
     display: none;
   }
 `
@@ -57,6 +47,7 @@ export const LinksContainer = styled.div`
     top: 0;
     height: 3.5rem;
     padding-left: 14px;
+    width: 96%;
   }
 `
 export const Span = styled.span`

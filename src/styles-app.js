@@ -65,7 +65,6 @@ export const ImageContainer = styled.div`
   @media screen and (max-width: 800px) {
     flex-direction: column;
     height: auto;
-    /* padding-bottom: 260px; */
     padding-top: 65px;
   }
 
