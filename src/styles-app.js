@@ -123,3 +123,31 @@ export const Imagem = styled.img`
     width: 60%;
   }
 `
+export const CardContainer = styled.div`
+  display: grid;
+  grid-template-columns: 365px 365px 365px;
+  width: 100%;
+  height: 40rem;
+  background: #e6ffe6;
+
+  align-items: center;
+  justify-content: center;
+
+  @media screen and (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+`
+export const Card = styled.div`
+  display: flex;
+  width: 20rem;
+  height: 32rem;
+  background: #009900;
+  border-radius: 20px;
+  background: linear-gradient(to right, #009900 20%, green 45%);
+
+  @media screen and (max-width: 800px) {
+    margin-top: 50px;
+  }
+`

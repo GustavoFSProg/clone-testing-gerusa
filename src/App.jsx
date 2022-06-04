@@ -1,6 +1,16 @@
 import './App.css'
 import Header from './components/Header/Header'
-import { ContainerName, Image, Imagem, H1, H2, Text, ImageContainer } from './styles-app'
+import {
+  ContainerName,
+  CardContainer,
+  Image,
+  Imagem,
+  H1,
+  H2,
+  Text,
+  ImageContainer,
+  Card,
+} from './styles-app'
 import Foto from './assets/image1.jpg'
 import Footer from './components/Footer/Footer'
 import Logo from './assets/logo1.jpg'
@@ -27,6 +37,11 @@ function App() {
           </Text>
           <Image src={Foto} alt="imagem" />
         </ImageContainer>
+        <CardContainer>
+          <Card>asasdf</Card>
+          <Card>asasdf</Card>
+          <Card>asasdf</Card>
+        </CardContainer>
         <Footer />
       </div>
     </>
