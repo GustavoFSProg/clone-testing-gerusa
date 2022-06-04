@@ -164,6 +164,7 @@ export const Span = styled.span`
   align-items: center;
   justify-content: center;
   margin-left: 12px;
+  font-family: 'Montserrat 300';
 
   @media screen and (max-width: 700px) {
     width: 76%;
