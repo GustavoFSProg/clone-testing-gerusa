@@ -13,7 +13,7 @@ import {
   Span,
   Button,
 } from './styles-app'
-import Foto from './assets/image1.jpg'
+import Foto from './assets/alemao.jpeg'
 import Footer from './components/Footer/Footer'
 import Logo from './assets/logo1.jpg'
 

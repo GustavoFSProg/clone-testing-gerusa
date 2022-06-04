@@ -6,11 +6,11 @@ function Header() {
       <LinksContainer>
         <Menu />
         <Span>HOME</Span>
-        <Span>AULAS</Span>
         <Span>TRADUÇÃO</Span>
+        <Span>YOGA</Span>
+        <Span>AULAS ALEMÃO</Span>
         <Span>CONTATO</Span>
         <Span>FORMAÇÃO</Span>
-        <Span>ALEMÃO</Span>
         <Span>SERVIÇOS</Span>
       </LinksContainer>
     </HeaderContainer>

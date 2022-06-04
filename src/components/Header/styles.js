@@ -45,7 +45,7 @@ export const LinksContainer = styled.div`
   background: #e0a21f;
   align-items: center;
   justify-content: center;
-  color: black;
+  color: #003366;
   padding-top: 15px;
   padding-left: 2px;
 
@@ -60,13 +60,13 @@ export const LinksContainer = styled.div`
   }
 `
 export const Span = styled.span`
-  font-size: 0.879rem;
+  font-size: 1rem;
   margin-right: 4rem;
   font-weight: bold;
   font-family: 'Blinker';
   letter-spacing: 0.1rem;
   transition: ease 0.5s;
-  width: 4rem;
+  /* width: 4rem; */
   padding-left: 1.2rem;
   padding-right: 1.2rem;
   cursor: pointer;
