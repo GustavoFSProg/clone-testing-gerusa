@@ -29,16 +29,8 @@ export default function SimpleMenu() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MenuItem onClick={handleClose}>
-          <Link style={{ textDecoration: 'none' }} to="/">
-            Home
-          </Link>
-        </MenuItem>
-        <MenuItem onClick={handleClose}>
-          <Link style={{ textDecoration: 'none' }} to="/classes">
-            Tradução
-          </Link>
-        </MenuItem>
+        <MenuItem onClick={handleClose}>Home</MenuItem>
+        <MenuItem onClick={handleClose}>Tradução</MenuItem>
         <MenuItem onClick={handleClose}>Yoga</MenuItem>
         <MenuItem onClick={handleClose}>Aulas de Alemão</MenuItem>
         <MenuItem onClick={handleClose}>Contato</MenuItem>

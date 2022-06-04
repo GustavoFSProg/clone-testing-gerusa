@@ -41,9 +41,7 @@ function App() {
         </ImageContainer>
         <CardContainer>
           <Card>
-            <h2 style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              Tradução
-            </h2>
+            <h2>Tradução</h2>
             <Span>
               There are many variations of passages of Lorem Ipsum available, but the majority have
               suffered alteration in some form, by injected humour, or randomised words which don't

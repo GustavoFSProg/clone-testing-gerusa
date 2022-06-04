@@ -163,6 +163,7 @@ export const Span = styled.span`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 12px;
 
   @media screen and (max-width: 700px) {
     width: 76%;
