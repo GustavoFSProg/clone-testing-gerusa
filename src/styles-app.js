@@ -145,17 +145,17 @@ export const Card = styled.div`
   justify-content: center;
   flex-direction: column;
   width: 20rem;
-  height: 34rem;
-  background: #009900;
+  height: 37rem;
   border-radius: 20px;
-  background: linear-gradient(to right, #0059b3 20%, #00264d 45%);
+  background: linear-gradient(to right bottom, #0066cc 20%, #00264d 45%);
   color: white;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  font-family: 'Montserrat 200';
 
   @media screen and (max-width: 800px) {
     margin-bottom: 50px;
     width: 18rem;
-    height: 37rem;
+    height: 40.5rem;
   }
 `
 export const Span = styled.span`
