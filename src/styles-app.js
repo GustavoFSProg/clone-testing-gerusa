@@ -148,7 +148,7 @@ export const Card = styled.div`
   height: 32rem;
   background: #009900;
   border-radius: 20px;
-  background: linear-gradient(to right, #009900 20%, green 45%);
+  background: linear-gradient(to right, #00b300 20%, green 45%);
   color: white;
   font-size: 1rem;
 
