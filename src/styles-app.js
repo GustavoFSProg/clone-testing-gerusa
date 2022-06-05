@@ -151,9 +151,11 @@ export const Card = styled.div`
   justify-content: center;
   flex-direction: column;
   width: 20rem;
-  height: 37.2rem;
+  /* height: 37.2rem; */
+  height: auto;
 
   padding-top: 20px;
+  padding-bottom: 50px;
   border-radius: 20px;
   background: linear-gradient(to right bottom, #0066cc 20%, #00264d 45%);
   color: white;
@@ -161,7 +163,8 @@ export const Card = styled.div`
   font-family: 'Montserrat 200';
 
   @-moz-document url-prefix() {
-    height: 47rem;
+    /* height: 47rem; */
+    height: auto;
   }
   _:-ms-lang(x),
   _:-webkit-full-screen {
@@ -170,12 +173,13 @@ export const Card = styled.div`
 
   @supports (-ms-ime-align: auto) {
     height: 47rem;
+    padding-bottom: 0px;
   }
 
   @media screen and (max-width: 800px) {
     margin-bottom: 50px;
     width: 18.1rem;
-    height: 40.5rem;
+    height: auto;
   }
 `
 export const Span = styled.span`
