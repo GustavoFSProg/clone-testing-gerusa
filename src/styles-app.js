@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import Whats from './assets/whatsapp.png'
 
 export const ContainerName = styled.div`
   display: flex;
@@ -184,5 +185,27 @@ export const Button = styled.button`
 
   &:hover {
     background: gray;
+  }
+`
+
+export const WhatsContainer = styled.div`
+  background-image: url(${Whats}) center center no-repeat fixed;
+  background-size: cover;
+  /* position: fixed; */
+  top: 248px;
+  height: 30px;
+  width: 35px;
+  z-index: 999;
+  left: 0pt;
+`
+export const Img = styled.img`
+  display: flex;
+  width: 95px;
+  margin-left: -100px;
+
+  @media screen and (max-width: 700px) {
+    width: 55px;
+    margin-left: -145px;
+    padding-bottom: 20px;
   }
 `

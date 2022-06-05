@@ -19,7 +19,7 @@ function Footer() {
               color: 'white',
             }}
             target="_blank"
-            href={`https://wa.me/+5551993965345`}
+            href={`https://wa.me/+5551993965345?text=Olá, gostaria de um orçamento`}
           >
             <img src={Whatsapp} alt="whataspp" width="25" />
             <span style={{ marginLeft: '10px', fontFamily: 'Arial', fontSize: '17px' }}>
@@ -42,7 +42,7 @@ function Footer() {
            
           `}
           >
-            <img src={Email} alt="whataspp" width="25" />
+            <img src={Email} alt="email" width="25" />
             <span style={{ marginLeft: '10px', fontFamily: 'Arial', fontSize: '17px' }}>
               gerusagamm@gmail.com
             </span>

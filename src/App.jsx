@@ -12,10 +12,12 @@ import {
   Card,
   Span,
   Button,
+  Img,
 } from './styles-app'
 import Foto from './assets/alemao.jpeg'
 import Footer from './components/Footer/Footer'
 import Logo from './assets/logo1.jpg'
+import Whats from './assets/whatsapp.png'
 
 function App() {
   return (
@@ -81,6 +83,9 @@ function App() {
             </Span>
             <Button onClick={() => alert('You Clicked Alemão!')}>Ver mais</Button>
           </Card>
+          <a href="https://wa.me/+5551993965345?text=Olá, gostaria de um orçamento">
+            <Img src={Whats} alt="whats" width="95" />
+          </a>
         </CardContainer>
         <Footer />
       </div>
