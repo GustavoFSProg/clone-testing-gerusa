@@ -67,6 +67,7 @@ export const LinksContainer = styled.div`
     height: 3.5rem;
     padding-left: 14px;
     width: 96%;
+    margin-top: 0px;
   }
 `
 export const Span = styled.span`
