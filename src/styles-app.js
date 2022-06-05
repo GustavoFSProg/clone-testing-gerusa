@@ -17,11 +17,11 @@ export const ContainerName = styled.div`
   @media screen and (max-width: 900px) {
     width: 100%;
     /* height: 20.5rem; */
-    height: 25rem;
+    height: 23rem;
 
     flex-direction: column;
     position: relative;
-    padding-top: 19px;
+    padding-top: 17px;
   }
 `
 
