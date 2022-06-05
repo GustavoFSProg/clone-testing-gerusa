@@ -56,6 +56,7 @@ export const LinksContainer = styled.div`
   color: #003366;
   /* padding-top: 15px; */
   padding-left: 2px;
+  margin-top: -10px;
 
   @media screen and (max-width: 850px) {
     display: flex;
