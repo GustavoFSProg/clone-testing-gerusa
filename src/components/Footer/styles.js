@@ -19,7 +19,7 @@ export const LinksContainer = styled.div`
   height: 4rem;
   gap: 15px;
   grid-gap: 15px;
-  padding-bottom: 16px;
+  padding-bottom: 14px;
 
   @media screen and (max-width: 700px) {
     display: flex;
