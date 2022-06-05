@@ -21,7 +21,7 @@ export const ContainerName = styled.div`
 
     flex-direction: column;
     position: relative;
-    padding-top: 36px;
+    padding-top: 10px;
   }
 `
 
