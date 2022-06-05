@@ -220,7 +220,7 @@ export const WhatsContainer = styled.div`
 export const Img = styled.img`
   display: flex;
   width: 95px;
-  margin-left: -80px;
+  margin-left: -60px;
 
   @media screen and (max-width: 700px) {
     width: 58px;
