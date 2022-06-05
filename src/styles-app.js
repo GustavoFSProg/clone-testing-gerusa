@@ -162,6 +162,14 @@ export const Card = styled.div`
   @-moz-document url-prefix() {
     height: 47rem;
   }
+  _:-ms-lang(x),
+  _:-webkit-full-screen {
+    height: 47rem;
+  }
+
+  @supports (-ms-ime-align: auto) {
+    height: 47rem;
+  }
 
   @media screen and (max-width: 800px) {
     margin-bottom: 50px;
