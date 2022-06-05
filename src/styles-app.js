@@ -13,13 +13,14 @@ export const ContainerName = styled.div`
 
   align-items: center;
   justify-content: center;
-  padding-top: 110px;
+  padding-top: 83px;
 
   @media screen and (max-width: 900px) {
     width: 100%;
     height: 20.5rem;
     flex-direction: column;
     position: relative;
+    padding-top: 36px;
   }
 `
 
