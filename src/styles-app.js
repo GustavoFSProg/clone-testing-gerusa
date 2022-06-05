@@ -9,7 +9,7 @@ export const ContainerName = styled.div`
   width: 100%;
   height: 27rem;
   flex-direction: column;
-  background: #f2e5d9;
+  background: #f8f2ed;
   align-items: center;
   justify-content: center;
   /* padding-top: 40px; */
@@ -17,11 +17,11 @@ export const ContainerName = styled.div`
   @media screen and (max-width: 900px) {
     width: 100%;
     /* height: 20.5rem; */
-    height: 27rem;
+    height: 25rem;
 
     flex-direction: column;
     position: relative;
-    padding-top: 10px;
+    padding-top: 19px;
   }
 `
 
