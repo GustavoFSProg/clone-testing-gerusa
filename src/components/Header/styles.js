@@ -1,12 +1,12 @@
 import styled from 'styled-components'
 
 export const HeaderContainer = styled.div`
+  position: fixed;
   display: flex;
-  width: 100%;
-  height: 10.5rem;
   flex-direction: column;
-  margin-top: 0px;
-  top: 0px;
+  height: 60px;
+  width: 100%;
+  z-index: 2 !important;
 
   align-items: center;
   justify-content: space-around;
@@ -18,16 +18,34 @@ export const HeaderContainer = styled.div`
   }
 `
 
-export const Imagem = styled.img`
-  width: 13%;
-  margin-left: 35px;
+// export const HeaderContainer = styled.div`
+//   display: flex;
+//   width: 100%;
+//   height: 10.5rem;
+//   flex-direction: column;
+//   margin-top: 0px;
+//   top: 0px;
 
-  @media screen and (max-width: 850px) {
-    width: 0px;
-    margin-left: 0px;
-    display: none;
-  }
-`
+//   align-items: center;
+//   justify-content: space-around;
+
+//   @media screen and (max-width: 850px) {
+//     height: 7.4rem;
+//     top: 0px;
+//     margin-top: 0px;
+//   }
+// `
+
+// export const Imagem = styled.img`
+//   width: 13%;
+//   margin-left: 35px;
+
+//   @media screen and (max-width: 850px) {
+//     width: 0px;
+//     margin-left: 0px;
+//     display: none;
+//   }
+// `
 export const LinksContainer = styled.div`
   display: flex;
   width: 100%;
@@ -36,7 +54,7 @@ export const LinksContainer = styled.div`
   align-items: center;
   justify-content: center;
   color: #003366;
-  padding-top: 15px;
+  /* padding-top: 15px; */
   padding-left: 2px;
 
   @media screen and (max-width: 850px) {

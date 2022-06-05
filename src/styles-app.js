@@ -1,14 +1,19 @@
 import styled from 'styled-components'
 import Whats from './assets/whatsapp.png'
 
+// ---------------------
+//--------------------
+
 export const ContainerName = styled.div`
   display: flex;
   width: 100%;
   height: 20rem;
   flex-direction: column;
+  /* min-height: 100vh; */
 
   align-items: center;
   justify-content: center;
+  padding-top: 110px;
 
   @media screen and (max-width: 900px) {
     width: 100%;
@@ -146,6 +151,7 @@ export const Card = styled.div`
   flex-direction: column;
   width: 20rem;
   height: 37rem;
+  padding-top: 20px;
   border-radius: 20px;
   background: linear-gradient(to right bottom, #0066cc 20%, #00264d 45%);
   color: white;
@@ -201,7 +207,7 @@ export const WhatsContainer = styled.div`
 export const Img = styled.img`
   display: flex;
   width: 95px;
-  margin-left: -100px;
+  margin-left: -80px;
 
   @media screen and (max-width: 700px) {
     width: 58px;
