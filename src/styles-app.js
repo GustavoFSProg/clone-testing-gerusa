@@ -7,17 +7,18 @@ import Whats from './assets/whatsapp.png'
 export const ContainerName = styled.div`
   display: flex;
   width: 100%;
-  height: 20rem;
+  height: 27rem;
   flex-direction: column;
-  /* min-height: 100vh; */
-
+  background: #f2e5d9;
   align-items: center;
   justify-content: center;
-  padding-top: 83px;
+  /* padding-top: 40px; */
 
   @media screen and (max-width: 900px) {
     width: 100%;
-    height: 20.5rem;
+    /* height: 20.5rem; */
+    height: 27rem;
+
     flex-direction: column;
     position: relative;
     padding-top: 36px;
@@ -63,7 +64,7 @@ export const ImageContainer = styled.div`
   width: 400;
   height: 400px;
   flex-direction: row;
-  padding-top: 160px;
+  padding-top: 128px;
 
   align-items: center;
   justify-content: center;
