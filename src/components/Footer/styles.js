@@ -10,18 +10,16 @@ export const FooterContainer = styled.div`
   justify-content: space-around;
   align-items: flex-start;
   padding: 3rem;
-
-  @media screen and (max-width: 700px) {
-  }
 `
 
 export const LinksContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 100%;
-  height: 3.5rem;
+  height: 4rem;
   gap: 15px;
   grid-gap: 15px;
+  padding-bottom: 35px;
 
   @media screen and (max-width: 700px) {
     display: flex;
