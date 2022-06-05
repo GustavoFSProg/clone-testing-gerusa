@@ -150,13 +150,18 @@ export const Card = styled.div`
   justify-content: center;
   flex-direction: column;
   width: 20rem;
-  height: 37rem;
+  height: 37.2rem;
+
   padding-top: 20px;
   border-radius: 20px;
   background: linear-gradient(to right bottom, #0066cc 20%, #00264d 45%);
   color: white;
   font-size: 1.1rem;
   font-family: 'Montserrat 200';
+
+  @-moz-document url-prefix() {
+    height: 47rem;
+  }
 
   @media screen and (max-width: 800px) {
     margin-bottom: 50px;

@@ -10,9 +10,6 @@ export const FooterContainer = styled.div`
   justify-content: space-around;
   align-items: flex-start;
   padding: 3rem;
-
-  @media screen and (max-width: 700px) {
-  }
 `
 
 export const LinksContainer = styled.div`
