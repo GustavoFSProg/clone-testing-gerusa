@@ -204,7 +204,7 @@ export const Img = styled.img`
   margin-left: -100px;
 
   @media screen and (max-width: 700px) {
-    width: 55px;
+    width: 58px;
     margin-left: -145px;
     padding-bottom: 20px;
   }
