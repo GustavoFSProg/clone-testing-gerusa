@@ -16,7 +16,7 @@ export const LinksContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 100%;
-  height: 4rem;
+  height: 3.5rem;
   gap: 15px;
   grid-gap: 15px;
   padding-bottom: 35px;
