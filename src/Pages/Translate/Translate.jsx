@@ -40,11 +40,12 @@ function Translate() {
         </Text>
         <Image src={Foto} alt="imagem" />
       </ImageContainer>
-
-      {/* <a href="https://wa.me/+5551993965345?text=Olá, gostaria de um orçamento"> */}
-      <a href="https://wa.me/+5551993965345">
-        <Img src={Whats} alt="whats" width="95" />
-      </a>
+      <CardContainer>
+        {/* <a href="https://wa.me/+5551993965345?text=Olá, gostaria de um orçamento"> */}
+        <a href="https://wa.me/+5551993965345">
+          <Img src={Whats} alt="whats" width="95" />
+        </a>
+      </CardContainer>
       <Footer />
     </>
   )
