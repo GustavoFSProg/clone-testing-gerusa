@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import Whats from './assets/whatsapp.png'
+import Whats from '../../assets/whatsapp.png'
 
 // ---------------------
 //--------------------
