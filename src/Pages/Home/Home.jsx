@@ -1,5 +1,4 @@
-import './App.css'
-import Header from './components/Header/Header'
+import Header from '../../components/Header/Header'
 import {
   ContainerName,
   CardContainer,
@@ -13,12 +12,11 @@ import {
   Span,
   Button,
   Img,
-} from './styles-app'
-import Foto from './assets/alemao.jpeg'
-import Footer from './components/Footer/Footer'
-import Logo from './assets/logo1.jpg'
-import Whats from './assets/whatsapp.png'
-import './app.css'
+} from './styles-home'
+import Foto from '../../assets/alemao.jpeg'
+import Footer from '../../components/Footer/Footer'
+import Logo from '../../assets/logo1.jpg'
+import Whats from '../../assets/whatsapp.png'
 
 function App() {
   return (
