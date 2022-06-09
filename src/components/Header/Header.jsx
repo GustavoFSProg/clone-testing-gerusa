@@ -16,7 +16,11 @@ function Header() {
             TRADUÇÃO
           </Link>
         </Span>
-        <Span>YOGA</Span>
+        <Span>
+          <Link to="/class" style={{ textDecoration: 'none' }}>
+            AULAS
+          </Link>
+        </Span>
         <Span>AULAS ALEMÃO</Span>
         <Span>CONTATO</Span>
         <Span>FORMAÇÃO</Span>

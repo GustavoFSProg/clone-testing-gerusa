@@ -40,7 +40,12 @@ export default function SimpleMenu() {
             TRADUÇÃO
           </Link>
         </MenuItem>
-        <MenuItem onClick={handleClose}>Yoga</MenuItem>
+        <MenuItem onClick={handleClose}>
+          {' '}
+          <Link to="/class" style={{ textDecoration: 'none' }}>
+            AULAS
+          </Link>
+        </MenuItem>
         <MenuItem onClick={handleClose}>Aulas de Alemão</MenuItem>
         <MenuItem onClick={handleClose}>Contato</MenuItem>
         <MenuItem onClick={handleClose}>Serviços</MenuItem>
