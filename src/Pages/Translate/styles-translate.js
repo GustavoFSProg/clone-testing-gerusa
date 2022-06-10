@@ -22,7 +22,7 @@ export const ContainerName = styled.div`
     flex-direction: column;
     position: relative;
     /* padding-top: 17px; */
-    margin-top: -5px;
+    margin-top: -15px;
   }
 `
 
