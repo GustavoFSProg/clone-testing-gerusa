@@ -1,6 +1,7 @@
 import {
   ContainerName,
   CardContainer,
+  ContainerText,
   Image,
   Imagem,
   H1,
@@ -12,27 +13,24 @@ import {
   Button,
   Img,
 } from './styles-translate'
-import Foto from '../../assets/alemao.jpeg'
 import Footer from '../../components/Footer/Footer'
 import Header from '../../components/Header/Header'
-import Logo from '../../assets/logo1.jpg'
+import Alemanha from '../../assets/alemanha.jpg'
 import Whats from '../../assets/whatsapp.png'
 
 function Translate() {
   return (
     <>
       <Header />
+
       <ContainerName>
-        {/* <H1>
-          <Imagem src={Logo} alt="logo" />
-        </H1>
-        <H2> Tradução Juramentada de Alemão</H2>
-        <H2> Aulas de Alemão e Yoga</H2> */}
-        <H1>Tradução</H1>
+        <img width="100%" src={Alemanha} alt="alemanha" />
       </ContainerName>
-      <ImageContainer>
+      <ContainerText>
         <H1>Tradução - Juramentada de Alemão</H1>
-      </ImageContainer>
+      </ContainerText>
+
+      <ImageContainer></ImageContainer>
       <CardContainer>
         {/* <a href="https://wa.me/+5551993965345?text=Olá, gostaria de um orçamento"> */}
         <a href="https://wa.me/+5551993965345">

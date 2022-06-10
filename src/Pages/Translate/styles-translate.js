@@ -1,18 +1,18 @@
 import styled from 'styled-components'
 import Whats from '../../assets/whatsapp.png'
+import Alemanha from '../../assets/alemanha.jpg'
 
 // ---------------------
 //--------------------
 
 export const ContainerName = styled.div`
   display: flex;
+  height: 30rem;
   width: 100%;
-  height: 27rem;
-  flex-direction: column;
-  background: #f8f2ed;
+  /* background: url(${Alemanha}) no-repeat; */
+  background-size: contain;
   align-items: center;
   justify-content: center;
-  /* padding-top: 40px; */
 
   @media screen and (max-width: 900px) {
     width: 100%;
@@ -21,22 +21,33 @@ export const ContainerName = styled.div`
 
     flex-direction: column;
     position: relative;
-    padding-top: 17px;
+    /* padding-top: 17px; */
+    margin-top: -5px;
   }
 `
 
-export const H1 = styled.span`
+export const H1 = styled.h1`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 30%;
-  color: #9d2b16;
+  width: 60%;
+  /* color: #9d2b16; */
+  color: white;
   font-size: 2.3rem;
+  padding-left: 50px;
+  background: black;
+  opacity: 0.7;
+  height: 9rem;
+  /* box-shadow: 5px 5px 4px #888888;
+   */
 
   @media screen and (max-width: 900px) {
-    font-size: 1.6rem;
+    font-size: 1.42rem;
     width: 80%;
-    margin-bottom: 7px;
+    opacity: 0.61;
+    border-radius: 7px;
+
+    /* margin-bottom: 7px; */
   }
 `
 
@@ -45,7 +56,7 @@ export const H2 = styled.span`
   align-items: center;
   justify-content: center;
   width: 30%;
-  color: #9d2b16;
+  /* color: #9d2b16; */
   font-size: 1.1rem;
   margin-top: 10px;
   letter-spacing: 0.02rem;
@@ -233,4 +244,22 @@ export const Img = styled.img`
     margin-left: -145px;
     padding-bottom: 20px;
   }
+`
+
+export const ContainerText = styled.div`
+  display: flex;
+  height: auto;
+  background: black;
+  width: 100%;
+  /* background: url(${Alemanha}) no-repeat; */
+  align-items: center;
+  justify-content: center;
+  margin-top: -40px;
+
+  @media screen and (max-width: 700px) {
+    margin-top: -260px;
+    height: 80px;
+  }
+
+  /* box-shadow: 5px 5px 4px #888888; */
 `
