@@ -22,7 +22,7 @@ export const ContainerName = styled.div`
     flex-direction: column;
     position: relative;
     /* padding-top: 17px; */
-    margin-top: -15px;
+    margin-top: -35px;
   }
 `
 
@@ -42,10 +42,12 @@ export const H1 = styled.h1`
    */
 
   @media screen and (max-width: 900px) {
-    font-size: 1.42rem;
+    font-size: 1rem;
     width: 80%;
     opacity: 0.61;
     border-radius: 7px;
+    height: 7rem;
+    margin-left: -10px;
 
     /* margin-bottom: 7px; */
   }
