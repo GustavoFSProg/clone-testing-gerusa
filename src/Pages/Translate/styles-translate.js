@@ -48,6 +48,7 @@ export const H1 = styled.h1`
     border-radius: 7px;
     height: 7rem;
     margin-left: -10px;
+    margin-top: 10px;
 
     /* margin-bottom: 7px; */
   }
