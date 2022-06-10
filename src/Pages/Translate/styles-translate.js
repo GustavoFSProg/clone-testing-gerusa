@@ -21,7 +21,8 @@ export const ContainerName = styled.div`
 
     flex-direction: column;
     position: relative;
-    padding-top: 17px;
+    /* padding-top: 17px; */
+    margin-top: -5px;
   }
 `
 
@@ -41,9 +42,12 @@ export const H1 = styled.h1`
    */
 
   @media screen and (max-width: 900px) {
-    font-size: 1.6rem;
+    font-size: 1.42rem;
     width: 80%;
-    margin-bottom: 7px;
+    opacity: 0.61;
+    border-radius: 7px;
+
+    /* margin-bottom: 7px; */
   }
 `
 
@@ -251,6 +255,11 @@ export const ContainerText = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: -40px;
+
+  @media screen and (max-width: 700px) {
+    margin-top: -260px;
+    height: 80px;
+  }
 
   /* box-shadow: 5px 5px 4px #888888; */
 `
