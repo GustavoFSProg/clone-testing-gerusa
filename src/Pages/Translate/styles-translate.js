@@ -259,6 +259,4 @@ export const ContainerText = styled.div`
     margin-top: -260px;
     height: 80px;
   }
-
-  /* box-shadow: 5px 5px 4px #888888; */
 `
