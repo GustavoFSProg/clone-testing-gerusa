@@ -34,23 +34,19 @@ export const H1 = styled.h1`
   /* color: #9d2b16; */
   color: white;
   font-size: 2.3rem;
-  padding-left: 50px;
+  /* padding-left: 50px; */
   background: black;
-  opacity: 0.7;
   height: 9rem;
-  /* box-shadow: 5px 5px 4px #888888;
-   */
 
   @media screen and (max-width: 900px) {
     font-size: 1rem;
-    width: 80%;
-    opacity: 0.61;
+    width: 90%;
+    opacity: 0.97;
     border-radius: 7px;
     height: 7rem;
-    margin-left: -10px;
-    margin-top: 10px;
-
-    /* margin-bottom: 7px; */
+    margin-top: 50px;
+    padding-left: 7px;
+    padding-right: 7px;
   }
 `
 
@@ -252,12 +248,12 @@ export const Img = styled.img`
 export const ContainerText = styled.div`
   display: flex;
   height: auto;
-  background: black;
   width: 100%;
   /* background: url(${Alemanha}) no-repeat; */
   align-items: center;
   justify-content: center;
   margin-top: -40px;
+  opacity: 0.7;
 
   @media screen and (max-width: 700px) {
     margin-top: -260px;
